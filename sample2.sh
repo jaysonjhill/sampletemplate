@@ -9,4 +9,4 @@ chkconfig docker on
 curl -L https://github.com/docker/compose/releases/download/1.8.1/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose && ln -sv /usr/local/bin/docker-compose /usr/bin/docker-compose
 mkdir /adop && cd /adop
-git clone https://github.com/AccenturePDC/adop-docker-compose.git -b pdc-ext
+git clone https://github.com/rhubel123/adop-docker-compose-hcm.git
