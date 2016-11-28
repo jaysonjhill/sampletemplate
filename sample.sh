@@ -20,8 +20,9 @@ export CUSTOM_NETWORK_NAME=docker-network
 docker network create ${CUSTOM_NETWORK_NAME}
 docker-compose -f compose/elk.yml up -d
 source ./conf/env.provider.sh
-source credentials.generate.sh
-source env.config.sh
+pwd
+source ./credentials.generate.sh
+source ./env.config.sh
 docker-compose pull
 docker-compose -f docker-compose.yml -f etc/volumes/local/default.yml up -d
 docker exec -it proxy bash
