@@ -8,16 +8,16 @@ mkdir -p conf/provider/oracle
 
 # Username for initial admin user
 export INITIAL_ADMIN_USER="john.smith"
-
+echo $INITIAL_ADMIN_USER
 # Password for initial admin user
 export INITIAL_ADMIN_PASSWORD_PLAIN="Password01"
-
+echo $INITIAL_ADMIN_PASSWORD_PLAIN
 # Password for the Jenkins user
 export PASSWORD_JENKINS="1e6a8dd7fe461209"
-
+echo $PASSWORD_JENKINS
 # Password for the Gerrit user
 export PASSWORD_GERRIT="127893c312264915"
-
+echo $PASSWORD_GERRIT
 # Root password for the Sonar and Gerrit MySQL instances
 export PASSWORD_SQL="65c25aa649ac5214"
 source ./conf/env.provider.sh
