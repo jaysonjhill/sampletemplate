@@ -8,7 +8,7 @@ chkconfig docker on
 curl -L https://github.com/docker/compose/releases/download/1.8.1/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose && ln -sv /usr/local/bin/docker-compose /usr/bin/docker-compose
 mkdir /adop && cd /adop
-git clone https://github.com/pdcbuckets/adop-docker-compose.git -b master
+git clone https://github.com/jaysonjhill/adop-docker-compose.git -b master
 chmod -R 700 /adop/adop-docker-compose
 cd /adop/adop-docker-compose
 mkdir -p conf/provider/oracle
