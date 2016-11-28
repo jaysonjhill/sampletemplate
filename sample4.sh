@@ -1,3 +1,4 @@
+yum install git -y
 mkdir /adop && cd /adop
 git clone https://github.com/jaysonjhill/adop-docker-compose.git -b master
 chmod -R 700 /adop/adop-docker-compose
