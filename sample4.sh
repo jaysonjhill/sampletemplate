@@ -10,7 +10,7 @@ mkdir -p conf/provider/oracle
 export INITIAL_ADMIN_USER="john.smith"
 echo $INITIAL_ADMIN_USER
 # Password for initial admin user
-export INITIAL_ADMIN_PASSWORD_PLAIN="Password01"
+export INITIAL_ADMIN_PASSWORD_PLAIN="Accenture01"
 echo $INITIAL_ADMIN_PASSWORD_PLAIN
 # Password for the Jenkins user
 export PASSWORD_JENKINS="1e6a8dd7fe461209"
