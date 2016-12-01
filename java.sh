@@ -9,7 +9,7 @@ printf "other_args=\'-g /adop/docker\'" >> /etc/sysconfig/docker
 rm -rf /var/lib/docker
 service docker start
 chkconfig docker on
-curl -L https://github.com/docker/compose/releases/download/1.8.1/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose,
+curl -L https://github.com/docker/compose/releases/download/1.8.1/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose && ln -sv /usr/local/bin/docker-compose /usr/bin/docker-compose
 mkdir /adop
 cd /adop
