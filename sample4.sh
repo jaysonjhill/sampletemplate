@@ -20,7 +20,7 @@ export CUSTOM_NETWORK_NAME=docker-network
 docker network create ${CUSTOM_NETWORK_NAME}
 docker-compose -f compose/elk.yml up -d
 export INITIAL_ADMIN_USER="john.smith"
-export INITIAL_ADMIN_PASSWORD_PLAIN="Accenture01"
+export INITIAL_ADMIN_PASSWORD_PLAIN="saadsadasd"
 export PASSWORD_JENKINS="1e6a8dd7fe461209"
 export PASSWORD_GERRIT="127893c312264915"
 export PASSWORD_SQL="65c25aa649ac5214"
