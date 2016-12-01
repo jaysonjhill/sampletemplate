@@ -22,6 +22,7 @@ export CUSTOM_NETWORK_NAME=docker-network
 chmod -R 700 /adop/adop-docker-compose-java
 cd /adop/adop-docker-compose-java
 docker network create ${CUSTOM_NETWORK_NAME}
+docker-compose -f compose/elk.yml up -d
 source platform.secrets.sh
 source env.config.sh
 docker-compose -f docker-compose.yml -f etc/volumes/local/default.yml up -d
